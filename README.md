@@ -1,147 +1,118 @@
-Dra. Paula Fabiana Barbosa — Landing Page
+# Dra. Paula Fabiana Barbosa — Odontologia
 
-Landing page institucional do consultório da Dra. Paula Fabiana Barbosa, especialista em Odontologia Estética e Reabilitação Oral, em São Paulo - SP.
+Site institucional de apresentação do consultório da Dra. Paula Fabiana Barbosa, com foco em odontologia estética, reabilitação oral e agendamento de consultas.
 
-Transformar sorrisos com excelência, proporcionando autoestima, saúde bucal e qualidade de vida por meio de tratamentos personalizados, humanizados e com tecnologia de ponta.
+## Visão geral
 
-Sumário
-Sobre o projeto
-Público-alvo
-Serviços
-Diferenciais
-Estrutura de páginas
-Melhorias implementadas
-Contato e localização
-Privacidade e LGPD
-Documentação para IAs (llms.txt)
-Manutenção
-Sobre o projeto
+A página apresenta a profissional, destaca os principais tratamentos odontológicos e oferece atalhos para contato pelo WhatsApp. O layout utiliza uma identidade visual elegante, com tons azul-marinho, dourado e fundo claro.
 
-Página de apresentação e captação de pacientes, com foco em conversão via WhatsApp. Destaca mais de 8 anos de experiência e 200+ sorrisos transformados, com atendimento humanizado, planejamento digital 3D e protocolos minimamente invasivos.
+## Funcionalidades
 
-Chamada principal (CTA): Agende sua consulta agora mesmo! Link de agendamento: https://wa.me/5511999999999?text=Olá%20Dra.%20Paula%2C%20gostaria%20de%20agendar%20uma%20consulta!
+- Seção inicial (*hero*) com chamada para agendamento e indicadores de experiência.
+- Apresentação de especialidades odontológicas:
+  - Lentes de contato dental;
+  - Implantes dentários;
+  - Harmonização facial;
+  - Reabilitação oral.
+- Seção de diferenciais, incluindo planejamento 3D, naturalidade, durabilidade e atendimento humanizado.
+- Seção “Sobre” com apresentação da dentista.
+- Lista adicional de serviços odontológicos.
+- Botões de agendamento que direcionam para o WhatsApp.
+- Botão flutuante do WhatsApp.
+- Perguntas frequentes expansíveis.
+- Mapa incorporado do Google Maps e link para abrir a localização.
+- Links para Instagram, Facebook e política de privacidade.
+- Metadados para mecanismos de busca e compartilhamento em redes sociais.
+- Dados estruturados JSON-LD com informações do consultório.
+- Ajustes responsivos para diferentes tamanhos de tela.
+- Recurso de acessibilidade para pular diretamente ao conteúdo principal.
 
-Público-alvo
-Pessoas que buscam melhorar a estética do sorriso (clareamento, lentes, facetas)
-Pacientes com necessidade de reabilitação oral completa
-Pessoas com cáries, gengivite ou periodontite
-Pacientes que precisam de extrações ou tratamento de canal
-Interessados em harmonização facial
-Pacientes com urgências odontológicas (dor, fraturas, infecções)
-Adultos e idosos que necessitam de próteses ou implantes
-Serviços
-Clínicos
-Serviço	Descrição
-Consultas e avaliações	Exame clínico completo, diagnóstico e plano de tratamento personalizado
-Limpeza e prevenção	Remoção de tártaro, flúor, orientações de higiene e profilaxia
-Clareamento dental	Procedimento estético seguro e eficaz
-Cáries e restaurações	Remoção de cáries e restauração com resinas de alta qualidade
-Tratamento de canal	Endodontia para salvar dentes com comprometimento pulpar
-Extração de dentes	Extrações simples e cirúrgicas, incluindo sisos
-Gengivite e periodontite	Tratamento periodontal para saúde das gengivas
-Urgências	Dor intensa, fraturas, infecções e traumatismos
-Especialidades
-Especialidade	Descrição
-Lentes de Contato Dental	Lentes ultrafinas em porcelana, naturais e duráveis
-Implantes Dentários	Implantes de titânio de última geração
-Harmonização Facial	Preenchimentos, toxina botulínica e bioestimuladores
-Reabilitação Oral	Restauração completa da função mastigatória e estética
-Próteses Dentárias	Próteses fixas e removíveis
-Diferenciais
-Planejamento digital 3D com simulação de resultados
-Materiais de última geração importados
-Protocolos minimamente invasivos
-Acompanhamento pós-tratamento personalizado
-Ambiente com tecnologia de ponta
-Equipe qualificada e atualizada
-Estrutura de páginas
-Landing page principal — hero com estatísticas de confiança, serviços, diferenciais, sobre a dentista, CTA, FAQ (accordion) e mapa interativo
-Política de Privacidade — página completa com menu lateral e scrollspy
-Navegação consistente e design visual unificado entre as páginas
-Melhorias implementadas
-SEO
-Título otimizado (Odontologia Estética, Reabilitação Oral, Lentes de Contato, Implantes)
-Meta description de 150–160 caracteres com chamada para ação
-Open Graph completo e Twitter Card
-Link canonical definido
-Schema.org JSON-LD (MedicalBusiness)
-Meta tags robots e googlebot configuradas
-URLs amigáveis e semânticas
-Performance
-Imagens com lazy loading e width/height definidos
-Fontes com preconnect e somente os pesos necessários (~70% menos CSS de fontes)
-CSS otimizado, minificado e agrupado em um único bloco
-Animações com Intersection Observer
-Recursos via CDN (Font Awesome em versão estável)
-Sem JavaScript render-blocking desnecessário
-Acessibilidade
-Skip link para navegação por teclado
-aria-label em elementos interativos
-Roles semânticos (main, section, article, header, nav, footer)
-Contraste adequado (dourado + azul-marinho em fundo escuro)
-Textos alternativos descritivos nas imagens
-Hierarquia lógica de headings (h1, h2, h3)
-Indicadores visuais de foco
-Segurança
-Links externos com rel="noopener"
-Validação de entrada e prevenção de XSS
-Sem eval() ou funções inseguras
-Política de referrer: no-referrer-when-downgrade
-HTTPS recomendado em produção
-Cookies e privacidade
-Banner de consentimento: Aceitar, Rejeitar e Configurações
-Preferência salva em localStorage
-Eventos personalizados para ativar/desativar tracking
-Acessível por teclado e leitores de tela
-Código e manutenção
-HTML semântico com seções comentadas
-CSS com variáveis (custom properties) para cores, fontes e espaçamentos
-JavaScript não intrusivo, com event delegation
-Layout responsivo (mobile-first) com flexbox e grid
-Compatível com Chrome, Firefox, Safari e Edge
-UX
-Cards de serviços com ícones SVG
-Botão flutuante do WhatsApp com tooltip animado
-Ícones sociais coloridos (Instagram, Facebook, WhatsApp)
-Microinterações (hover, transições, animações sutis)
-Contato e localização
-	
-Endereço	Av. Paulista, 123, Sala 45 — São Paulo - SP — CEP 01310-100
-Telefone / WhatsApp	(11) 99999-9999
-E-mail	contato@drafabiana.com.br
-Instagram	@dra.paulafabiana
-Facebook	/dra.paulafabiana
+## Tecnologias utilizadas
 
-Horário de funcionamento
+- **HTML5** — estrutura e conteúdo da página.
+- **CSS3** — layout, identidade visual, animações e responsividade.
+- **Google Fonts** — fontes Montserrat e Spectral.
+- **Font Awesome 6.5.1** — ícones.
+- **Google Maps** — mapa incorporado.
+- **WhatsApp** — canal de contato e agendamento.
+- **Schema.org / JSON-LD** — dados estruturados para mecanismos de busca.
 
-Segunda a sexta: 08:00 – 20:00
-Sábado: 08:00 – 14:00
-Privacidade e LGPD
+O arquivo `index.html` inclui estilos CSS internos e carrega também folhas de estilo e um arquivo JavaScript externos.
 
-O site utiliza cookies para melhorar a experiência, analisar tráfego e exibir conteúdo personalizado. Os dados pessoais são tratados em conformidade com a Lei Geral de Proteção de Dados (Lei nº 13.709/2018).
+## Estrutura de arquivos esperada
 
-Direitos do titular:
+```text
+projeto/
+├── index.html
+├── accessibility.css
+├── specialties.css
+├── site.js
+├── dr-fabiana.png
+├── politicadeprivacidade.html
+└── assets/
+    └── especialidades/
+        ├── lentes.png
+        ├── implantes.png
+        ├── harmonizacao.png
+        └── reabilitacao.png
+```
 
-Confirmação e acesso aos dados
-Correção de dados incompletos ou desatualizados
-Anonimização, bloqueio ou eliminação de dados desnecessários
-Portabilidade dos dados
-Eliminação dos dados tratados com consentimento
-Revogação do consentimento a qualquer momento
-Documentação para IAs (llms.txt)
+**Importante:** os arquivos CSS, JavaScript e as imagens listados acima são referenciados pelo HTML, mas precisam estar presentes nos caminhos indicados para que todos os recursos funcionem corretamente. A imagem principal do banner é carregada de uma URL externa do GitHub.
 
-O projeto inclui um llms.txt estruturado com todas as informações da oferta (serviços, FAQ, contato, políticas), para leitura por assistentes virtuais e IAs.
+## Como executar localmente
 
-Manutenção
+O projeto é uma página estática e não exige banco de dados ou etapa de compilação.
 
-Antes de publicar ou atualizar, revise:
+1. Coloque `index.html` e os arquivos relacionados na estrutura de pastas indicada acima.
+2. Abra `index.html` diretamente no navegador.
 
- Endereço, telefone, WhatsApp e e-mail (os dados atuais podem ser provisórios)
- Link do CTA do WhatsApp
- Horários de funcionamento
- Imagem Open Graph (og:image) e URL canonical
- Dados estruturados (JSON-LD) após qualquer alteração de contato
- Texto da Política de Privacidade
- HTTPS ativo no domínio de produção
+Para testar usando um servidor local, entre na pasta do projeto e execute:
 
-© Dra. Paula Fabiana Barbosa — Odontologia Estética e Reabilitação Oral
+```bash
+python -m http.server 8000
+```
+
+Depois, acesse:
+
+<http://localhost:8000>
+
+O comando requer Python instalado. Um servidor local costuma facilitar os testes de carregamento de arquivos e caminhos relativos.
+
+## Personalização
+
+Antes de publicar ou reutilizar o site, revise:
+
+- **Contato:** telefone e link do WhatsApp, inclusive a mensagem pré-preenchida.
+- **Endereço:** endereço exibido, mapa incorporado e coordenadas presentes nos dados estruturados.
+- **Informações profissionais:** nome, formação, especialidades e indicadores de experiência.
+- **Imagens:** confirme que as imagens existem, têm autorização de uso e correspondem ao conteúdo apresentado.
+- **Redes sociais:** URLs do Instagram e Facebook.
+- **Política de privacidade:** confirme que `politicadeprivacidade.html` existe e contém o texto adequado.
+- **SEO:** título, descrição, URL canônica, imagem de compartilhamento e dados JSON-LD.
+- **Horários e serviços:** confira se as informações exibidas estão atualizadas.
+
+Os dados de endereço, contato, horários e serviços estão escritos diretamente no HTML. Ao alterá-los, atualize também os metadados e o JSON-LD para evitar informações divergentes.
+
+## Acessibilidade e experiência do usuário
+
+O HTML inclui idioma `pt-BR`, textos alternativos em imagens, rótulos acessíveis em links relevantes, foco no link “Pular para o conteúdo principal” e perguntas frequentes com elementos nativos `<details>` e `<summary>`. As folhas de estilo externas também fazem parte da apresentação e devem ser mantidas junto ao projeto.
+
+## Publicação
+
+Por ser um site estático, pode ser hospedado em um serviço que ofereça hospedagem de arquivos HTML, CSS, JavaScript e imagens, ou em um servidor web convencional.
+
+Antes de publicar:
+
+1. Teste a página em celular, tablet e computador.
+2. Verifique links, imagens, WhatsApp, mapa e redes sociais.
+3. Confirme que todos os arquivos locais foram enviados.
+4. Valide as informações de contato e os dados estruturados.
+5. Revise a política de privacidade e as informações profissionais.
+6. Verifique se a URL canônica corresponde ao domínio final.
+
+## Observações
+
+- A página carrega fontes e ícones de serviços externos; esses recursos dependem de conexão com a internet.
+- O mapa é incorporado a partir do Google Maps.
+- O botão do WhatsApp abre uma conversa com o número configurado no link.
+- Este README descreve a estrutura observada em `index.html`. O comportamento completo de `site.js`, `accessibility.css` e `specialties.css` depende do conteúdo desses arquivos.
